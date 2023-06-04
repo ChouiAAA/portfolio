@@ -123,7 +123,7 @@ h1{
     width: 50%;
 
     background-color: var(--main-decoration-color);
-    background-image: url(/Ressources/header1.png);
+    background-image: url(./ressources/header1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -325,10 +325,10 @@ button {
     border-left-color: var(--darkest-bg-color);
 }
 
-.oneproject__button:hover:after,
-.oneproject__button:hover:before{
-    width: 100%;
-    height: 100%;
+.oneproject__button:hover::after,
+.oneproject__button:hover::before{
+    width: 49%;
+    height: 49%;
 }
 
 
