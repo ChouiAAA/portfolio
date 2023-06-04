@@ -123,7 +123,7 @@ h1{
     width: 50%;
 
     background-color: var(--main-decoration-color);
-    background-image: url(./Ressources/header1.png);
+    background-image: url(../Ressources/header1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
